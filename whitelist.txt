@@ -2,7 +2,21 @@
 ! Title: FiSTWHOs FiSTLiST
 ! Description: My Personal Whitelist
 
-! Videos on Streaming Services like Sky, Hulu, ...
+! Videos on Websites and Streaming Sites ...
 @@||dpm.demdex.net^
+@@||rtl-relay.iocnt.net^
+@@||data-*.rtl.de^
+@@||te.technical-service.net^
+
+! Beaks paypal pay process on some german shopping sites
+@@||*paypal*.siteintercept.qualtrics.com^
+
+! Adblock-Detection: Bild.de, Sport1 and others
+@@||tags.tiqcdn.com^
+@@||www.asadcdn.com^
+
+! Search on edeka.de
+@@||cdn.tagcommander.com^
+@@||redirect*.tagcommander.com^
 
 ! Audio Streams / Podcasts 
