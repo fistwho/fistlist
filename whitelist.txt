@@ -1,4 +1,8 @@
 !
 ! Title: FiSTWHOs FiSTLiST
 ! Description: My Personal Whitelist
-!
+
+! Videos on Streaming Services like Sky, Hulu, ...
+@@||dpm.demdex.net^
+
+! Audio Streams / Podcasts 
