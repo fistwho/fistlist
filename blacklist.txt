@@ -35,3 +35,32 @@
 ||xlog*.byteoversea.com^
 ||xlog*.snssdk.com^
 ||xlog*.tiktokv.com^
+
+! Amazon AWS
+||*-adserver-*.amazonaws.com^
+||*-analytics-*.amazonaws.com^
+||*-beacon-*.amazonaws.com^
+||*-loggers-*.amazonaws.com^
+||*-telemetry-*.amazonaws.com^
+||adktracking-*.amazonaws.com^
+||adn-tktracking-*.amazonaws.com^
+||ads-*.amazonaws.com^
+||adserver-*.amazonaws.com^
+||ad-server-*.amazonaws.com^
+||adservingvpc-*.amazonaws.com^
+||adsk-*.amazonaws.com^
+||beaconserver-*.amazonaws.com^
+||log-collectors-*.amazonaws.com^
+||popadex-*.amazonaws.com^
+||rtbimp-loadbalancer-*.amazonaws.com^
+||tracking-*.amazonaws.com^
+||webanalytics-*.amazonaws.com^
+||wildcard-ads-*.amazonaws.com^
+
+! Amazon Device Metrics
+||d3p8zr0ffa9t17.cloudfront.net^
+||device-metrics-*.amazon.com^
+||mobileanalytics.*.amazonaws.com^
+
+! Amazon Prime Video Telemetry
+||*telemetry.insights.video.a2z.com^
