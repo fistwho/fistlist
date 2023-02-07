@@ -64,3 +64,55 @@
 
 ! Amazon Prime Video Telemetry
 ||*telemetry.insights.video.a2z.com^
+
+! Apple
+||*analytics-events.apple.com^
+||*analytics-events.news.apple-dns.net^
+||*feedbackws.icloud.com^
+||*metrics.apple.com^
+||*metrics.mzstatic.com^
+||api-adservices.apple.com^
+||iadsdk.apple.com^
+||metrics*.icloud.com^
+||securemvt.apple.com^
+
+! Microsoft Telemetry
+||*telemetry.officeapps.live.com^
+||events*.data.microsoft.com^
+||measure.office.com^
+||pipe.aria.microsoft.com^
+||telemetry*.microsoft.com^
+||vortex*.data.microsoft.com^
+||watson*.microsoft.com^
+||events*.data.msn.*^
+||adv-cloudfilse.azureedge.net^
+||app-fnsp-matomo-analytics-prod.azurewebsites.net^
+||bat.bing.com^
+||cdnnwlive.azureedge.net^
+||clarity.ms^
+||fp-cdn.azureedge.net^
+||live-tfs-omnilytics.azurewebsites.net^
+||nlo-stl-web.azureedge.net^
+||pestcontrol-uc1.azureedge.net^
+||sdtagging.azureedge.net^
+
+! Netflix
+||beacon*.netflix.net^
+||customerevents*.netflix.com^
+
+! Nvidia
+||telemetry*.nvidia.com^
+
+! Spam TLDs - without restrictions (no denyallow)
+|*.bid^
+|*.cfd^
+|*.discount^
+|*.fyi^
+|*.gdn^
+|*.loan^
+|*.loans^
+|*.ooo^
+|*.rest^
+|*.sbs^
+|*.okinawa^
+|*.uno^
