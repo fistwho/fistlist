@@ -1,0 +1,37 @@
+!
+! Title: FiSTWHOs FiSTLiST
+! Description: My Personal Blocklist
+!
+! TikTok Fingerprinting
+||*-ad.byteoversea.com^
+||*-mcs.byteoversea.com^
+||*-mon-*.bytegsdk.com^
+||*-mon-*.byteoversea.com^
+||ads*.tiktok.com^
+||analytics*.tiktok.com^
+||frontier*.byteoversea.com^
+||frontier*.tiktokv.com^
+||gecko*.byteoversea.com^
+||gecko*.tiktokv.com^
+||ib.snssdk.com^
+||log*.bytegsdk.com^
+||log*.byteoversea.*^
+||log*.snssdk.com^
+||log*.tiktok.com^
+||log*.tiktokv.com^
+||mcs*.snssdk.com^
+||mcs*.tiktok.com^
+||mcs*.tiktokv.com^
+||mon*.byteoversea.com^
+||mon*.tiktokv.com^
+||mssdk*.byteoversea.com^
+||mssdk*.tiktok.com^
+||mssdk*.tiktokv.com^
+||pitaya*.tiktokv.com^
+||rtc-log*.tiktokv.com^
+||rtlog*.byteoversea.com^
+||rtlog*.snssdk.com^
+||rtlog*.tiktokv.com^
+||xlog*.byteoversea.com^
+||xlog*.snssdk.com^
+||xlog*.tiktokv.com^
