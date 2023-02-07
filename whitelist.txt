@@ -7,16 +7,187 @@
 @@||rtl-relay.iocnt.net^
 @@||data-*.rtl.de^
 @@||te.technical-service.net^
+@@|te.ip-prod.aws-cbc.cloud^
+! Prevents Netflix from continuing to play videos where you stopped or paused them
+@@||ichnaea*.netflix.com^
+@@|mas-*.amazon.com^
+@@||aiv-cdn.net^
+@@||aiv-cdn.net.c.footprint.net^
+@@||aiv-delivery.net^
+@@||amazonvideo.com^
+@@||atv-ext*.amazon.com^
+@@||atv-ps.amazon.com^
+@@||primevideo.com^
+@@||pv-cdn.net^
+@@|cdn-kaltura-dscd.edgekey.net^
+@@|src.litix.io^
 
 ! Beaks paypal pay process on some german shopping sites
 @@||*paypal*.siteintercept.qualtrics.com^
 
-! Adblock-Detection: Bild.de, Sport1 and others
+! Adblock-Detection / UX Breaks: Bild.de, Sport1 and others
 @@||tags.tiqcdn.com^
 @@||www.asadcdn.com^
+@@|swankyrule.zomap.de^
+@@|player-feedback-v1.glomex.com^
+@@|yagiay.com^
+@@|www.yagiay.com^
+@@|api.opinary.com^
+@@|widgets.opinary.com^
+@@|consent.faz.net^
+@@|faz.sevenval-fit.com^
+@@|stats.t-online.de^
+@@|bilder.fernsehserien.de^
+@@|bilder-a.akamaihd.net^
+@@|images.pluto.tv^
 
-! Search on edeka.de
+! Search on edeka.de / Aldi Prospekte
 @@||cdn.tagcommander.com^
 @@||redirect*.tagcommander.com^
+@@|prospekt.aldi-sued.de^
+@@|publitas.com^
+@@|www.publitas.com^
+@@||custom-domain.publitas.com^
 
 ! Audio Streams / Podcasts 
+
+! Adobe
+@@|c00.adobe.com^
+@@||cc-api-data.adobe.io^
+
+! Apple
+! It's app store tracking, but sometimes it breaks Apple watch/i/mac/tv OS updates!
+@@||xp.apple.com^
+@@||apps.apple.com^
+@@||cdn-apple.com^
+@@||gc.apple.com^
+@@||gc.fe.apple-dns.net^
+@@||push.apple.com^
+@@||safebrowsing.apple^
+@@||smoot.apple.com^
+! Breaks Apple Watch update, stucks on "Search for update"
+@@|apple-dns.net^
+@@|www.apple-dns.net^
+@@|apple.tt.omtrdc.net^
+@@|c.apple.com^
+@@|cstat.apple.com^
+@@|inappcheck*.apple.com^
+@@|iphone-ld.apple.com^
+@@|iphone-ld.origin-apple.com.akadns.net^
+@@|ocsp*.apple.com^
+@@|smp-device-content.apple.com^
+@@|stats.gc.apple.com^
+@@|trackingshipment.apple.com^
+
+! Amazon
+@@|aws.amazon.com^
+@@|bbuseruploads.s3.amazonaws.com^
+@@|kinesis.*.amazonaws.com^
+@@|s3.amazonaws.com^
+! Amazon Devices
+@@||acsechocaptiveportal.com^
+@@||execute-api.*.amazonaws.com^
+@@||gateway.devices.a2z.com^
+@@||ntp-fireos.com^
+@@|api*.amazonalexa.com^
+@@|arcus-*.amazon.com^
+@@|avs-alexa*.amazon.com^
+@@|d3p8zr0ffa9t17.cloudfront.net^
+@@|dcape-*.amazon.com^
+@@|dp-gw-*.amazon.com^
+@@|dxz5jxhrrzigf.cloudfront.net^
+@@|msh.amazon.co.uk^
+@@|prod.amazoncrl.com^
+@@|web.diagnostic.networking.aws.dev^
+@@||images-amazon.com^
+@@|aax-*-retail-direct.amazon-adsystem.com^
+@@|aax-*-retail-direct.amazon.com^
+@@|aax-eu.amazon.ae^
+@@|aax-eu.amazon.co.uk^
+@@|aax-eu.amazon.com^
+@@|aax-eu.amazon.com.tr^
+@@|aax-eu.amazon.de^
+@@|aax-eu.amazon.es^
+@@|aax-eu.amazon.fr^
+@@|aax-eu.amazon.in^
+@@|aax-eu.amazon.it^
+@@|aax-eu.amazon.nl^
+@@|aax-eu.amazon.sa^
+@@|aax-eu.amazon.se^
+@@|aax-fe.amazon.co.jp^
+@@|aax-fe.amazon.com^
+@@|aax-fe.amazon.com.au^
+@@|aax-fe.amazon.sg^
+
+
+! Facebook / Instagram / Whatsapp
+@@|*graph-fallback.facebook.com^
+@@|*graph-fallback.instagram.com^
+@@|*graph-video.facebook.com^
+@@|*graph.facebook.com^
+@@|*graph.fbpigeon.com^
+@@|*graph.instagram.com^
+@@|connect.facebook.com^
+@@|connect.facebook.net^
+@@|i.instagram.com^
+@@||cdninstagram.com^
+@@||fbcdn.net^
+
+
+! Microsoft
+! Office 365 Apps and Services
+@@||browser.events.data.microsoft.com^
+@@||*mobile.events.data.microsoft.com^
+@@||self.events.data.microsoft.com^
+! Windows / Xbox-Achievments
+@@||*v10.events.data.microsoft.com^
+@@||*v20.events.data.microsoft.com^
+! Outlook mobile app
+@@||mobile.pipe.aria.microsoft.com^
+! Windows / Xbox-Achievments
+@@||*v10.vortex-win.data.microsoft.com^
+@@||*v20.vortex-win.data.microsoft.com^
+! CNAME services.chipotle.com - breaks Chipotle order
+@@||serviceschipotlecom.trafficmanager.net^
+
+
+! Youtube
+@@||googlevideo.com^
+@@||ytimg.com^
+@@|i.ytimg.com^
+@@|i1.ytimg.com^
+@@|s.youtube.com^
+@@|s.ytimg.com^
+@@|s2.youtube.com^
+@@|youtu.be^
+@@|www.youtu.be^
+@@|youtube-nocookie.com^
+@@|www.youtube-nocookie.com^
+
+! Imgur
+@@|js.media-lab.ai^
+
+! Epic Games Launcher
+@@|eulatracking-public-service-*.ol.epicgames.com^
+
+! Whitelist others
+@@||click.zoom.us^
+@@||alb.reddit.com^
+@@||click.redditmail.com^
+@@||go.redirectingat.com^
+@@||newslink.reuters.com^
+@@||ct.sendgrid.net^
+@@||webto.salesforce.com^
+@@||app*.salesmanago.pl^
+@@||click.snapshat.com^
+@@||click.email.sonos.com^
+@@||open.spotify.com^
+@@||wl.spotify.com^
+@@||link.springer.com^
+@@||count.shopping.t-online.de^
+@@||goto.target.com^
+@@||tagm.tchibo.de^
+@@||syndication.twitter.com^
+@@||email.uber.com^
+@@||redirect.viglink.com^
+
